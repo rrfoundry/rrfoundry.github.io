@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Red Hat Display";
+    src: url('font/RedHatDisplay.ttf');
+}
+
+
+@font-face {
+    font-family: "Red Hat Display Italic";
+    src: url('font/RedHatDisplay-Italic.ttf');
+}
+
+
+@font-face {
+    font-family: "Monaco";
+    src: url('font/Monaco.ttf');
+}
+
+
+.main {
+    background-color: #1c1c1e;
+    color: #ffffff;
+    max-width: 900px;
+    min-height: 1080px;
+    margin: auto;
+    padding: 16px;
+    border-radius: 12px;
+    font-family: "Red Hat Display Regular", sans-serif;
+    font-size: 18px;
+}
+
+
+.main img {
+    display: block;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.menu {
+    font-size: 16px;
+}
+
+
+.corner-stamp img {
+    position: fixed;
+    z-index: -10;
+    bottom: 0px;
+    right: 5%;
+    max-width:25%;
+    height: auto;
+}
+
+
+.fb-comments {
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    background-color: #404040;
+}
+
+
+h3, h4 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+a {
+    font-weight: bold;
+    color: #23bbfc;
+    text-decoration: none;
+}
+
+
+button {
+    font-family: "Red Hat Display Regular", sans-serif;
+    font-size: 16px;
+    background-color: #007aff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+
+  input, textarea {
+    background-color: #2c2c2e;
+    color: #ffffff;
+    border: 1px solid #4c4c4e;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+
+code {
+    font-family: "Monaco";
+    font-size: 16;
+    background-color: #5c5c5c;
+}
+
+
+pre {
+    background-color: #5c5c5c;
+    padding: 5px;
+}
+
+
+table {
+    width: 100%;
+    text-align:center;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+th, td {
+  border-style:solid;
+  border-color: #878787;
+}

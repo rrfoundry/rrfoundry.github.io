@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Red River Foundry - Projects</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/main.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <!-- Content load -->
+    <script src="/main.js"></script>
+    <script>
+    window.onload = function() {
+        update_md('/md/menu.md', 'menu');
+        update_md('/md/projects.md', 'main');
+    }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="menu"></div>
+        <div id="main"></div>
+
+        <!--<div class="corner-stamp">
+        <img src="/img/ranni.png"/>
+        </div>-->
+    </div>
+</body>
